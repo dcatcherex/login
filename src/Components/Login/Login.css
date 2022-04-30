@@ -1,0 +1,108 @@
+.Login {
+}
+.Login .container {
+  width: 100%;
+  max-width: var(--login-width);
+  max-height: var(--login-height);
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.Login .container img {
+  height: var(--login-img-height);
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+
+.login_topic {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--clr-topic);
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+.login-body {
+  padding: 1em;
+}
+
+.button_set {
+  display: flex;
+  margin-bottom: 1em;
+}
+.button_set i {
+  margin-right: 0.4em;
+}
+
+.facebook,
+.google {
+  color: white;
+  padding: 0.5em;
+  width: 50%;
+  border-radius: 0.25em;
+}
+
+.facebook {
+  background-color: var(--clr-facebook);
+  color: white;
+  margin-right: 1em;
+}
+
+.google {
+  background-color: var(--clr-google);
+}
+
+.middle {
+  margin: 1.5em 0;
+  margin-bottom: 1em;
+}
+
+.or {
+  /* border-bottom: 1px solid var(--clr-border);
+  margin-bottom: 1em; */
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid var(--clr-border);
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.or span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.bottom_set {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.bottom_set p {
+  margin-bottom: 0.5em;
+  color: var(--clr-topic);
+}
+
+.bottom_set input,
+.bottom_set button {
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+}
+
+.bottom_set input {
+  border: 1px solid var(--clr-border);
+  margin-bottom: 1em;
+  transition: 0.2s ease;
+}
+
+.bottom_set input:hover,
+.bottom_set input:active,
+.bottom_set input:focus {
+  border: 1px solid var(--clr-google);
+  border-left: 14px solid var(--clr-google);
+}
+
+.bottom_set button {
+  background-color: var(--clr-topic);
+  color: white;
+}

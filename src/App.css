@@ -1,0 +1,42 @@
+:root {
+  --clr-facebook: #1877f2;
+  --clr-google: #dc4e41;
+  --clr-login: #303952;
+  --clr-topic: #233443;
+
+  --clr-border: #c4c4c4;
+  --clr-blue: #1664a4;
+  --clr-yellow: #ebc351;
+  --clr-red: #e83d3d;
+  --clr-green: #00adb5;
+
+  --login-width: 390px;
+  --login-img-height: 283px;
+  --login-height: 625px;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  /* font-family: 'Mali', cursive;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Sarabun', sans-serif; */
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: gainsboro;
+  line-height: 1.6;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
